@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 /**
  * @author GCM-Ataks
+ * @author Andres 
  */
 public class IANIM {
     
