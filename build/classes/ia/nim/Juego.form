@@ -115,7 +115,7 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton8">
+    <Component class="javax.swing.JButton" name="btnTerminar">
       <Properties>
         <Property name="text" type="java.lang.String" value="TERMINAR TURNO"/>
       </Properties>

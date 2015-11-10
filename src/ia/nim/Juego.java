@@ -39,7 +39,7 @@ public class Juego extends javax.swing.JFrame {
         btnSiete = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jButton8 = new javax.swing.JButton();
+        btnTerminar = new javax.swing.JButton();
         txtVwMov = new javax.swing.JLabel();
         txtVwTurno = new javax.swing.JTextField();
 
@@ -82,9 +82,9 @@ public class Juego extends javax.swing.JFrame {
         getContentPane().add(jLabel3);
         jLabel3.setBounds(140, 20, 32, 14);
 
-        jButton8.setText("TERMINAR TURNO");
-        getContentPane().add(jButton8);
-        jButton8.setBounds(150, 70, 155, 110);
+        btnTerminar.setText("TERMINAR TURNO");
+        getContentPane().add(btnTerminar);
+        btnTerminar.setBounds(150, 70, 155, 110);
 
         txtVwMov.setText("0");
         getContentPane().add(txtVwMov);
@@ -145,9 +145,9 @@ public class Juego extends javax.swing.JFrame {
     private javax.swing.JButton btnDos;
     private javax.swing.JButton btnSeis;
     private javax.swing.JButton btnSiete;
+    private javax.swing.JButton btnTerminar;
     private javax.swing.JButton btnTres;
     private javax.swing.JButton btnUno;
-    private javax.swing.JButton jButton8;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel txtVwMov;
