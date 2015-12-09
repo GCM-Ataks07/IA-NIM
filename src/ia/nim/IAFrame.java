@@ -9,6 +9,7 @@ package ia.nim;
  *
  * @author GCM-Ataks
  */
+
 public class IAFrame extends javax.swing.JFrame {
 
     /**
@@ -18,6 +19,7 @@ public class IAFrame extends javax.swing.JFrame {
         initComponents();
     }
     boolean b1,b2;
+    int j2;
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -131,13 +133,22 @@ public class IAFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_btnJ1ListoActionPerformed
 
     private void btnJ2ListoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnJ2ListoActionPerformed
+        if(rdBtnPC.isSelected()){
+            j2=1;
+        } else{
+            j2=0;
+        }
         btnJ2Listo.setEnabled(false);
         b2=true;
         btnEnabled();
     }//GEN-LAST:event_btnJ2ListoActionPerformed
-
+    
+    Juego juego = new Juego();
+    
     private void btnStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStartActionPerformed
-        new Juego().setVisible(true); 
+        juego.setVisible(true);
+        juego.iniciarJuego(j2);
+        this.dispose();
     }//GEN-LAST:event_btnStartActionPerformed
 
     /**
